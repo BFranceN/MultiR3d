@@ -1,0 +1,2 @@
+exercise
+-DCATKIN_DEVEL_PREFIX=/home/bitasus/Desktop/ros_test3/mrsim/devel -DCMAKE_INSTALL_PREFIX=/home/bitasus/Desktop/ros_test3/mrsim/install -G Unix Makefiles

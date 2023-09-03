@@ -1,0 +1,17 @@
+<launch>
+
+  <group ns="robot1">
+    <node pkg="exercise" name="r" type="robot_node"/>
+  </group>
+
+  <group ns="robot2">
+    <node pkg="exercise" name="r" type="robot_node"/>
+  </group>
+
+  <!-- <node pkg="exercise" name="rsim" type="mrsim_node">
+  </node> -->
+
+  <node pkg="exercise" name="wrd" type="world_node">
+  </node>
+
+</launch>
